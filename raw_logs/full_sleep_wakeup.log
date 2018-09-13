@@ -1,0 +1,418 @@
+DEBUG:NOTE - Sleep
+
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8957F1A380, length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: 0x0000: 30 00 00 00 00 00 00 00 - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 02 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0020: aa 11 c6 56 89 9e ff ff - 08 00 00 00 00 00 00 00
+HOOK_DATA: 0x0030: 01 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0040: aa 11 c6 56 89 9e ff ff - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0050: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0060: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0070: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0080: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E8957F1A380, Length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: DbgAcpiNotifyIoctl Write: Irp=0xFFFF9E8957F1A380, entry=0, direction=0x2, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x8, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 01 02 01 01 01 03 00 00
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8965FA2480, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8965FA2480, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8965FA2480, Length = 18, buffer = FFFF9E8966D86E60
+HOOK_DATA: 0x0000: aa 55 80 08 00 b2 c0 77 - 80 02 01 00 01 c5 00 03
+HOOK_DATA: 0x0010: 2c 62
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 10, buffer = FFFF9E895A09B7A0
+HOOK_DATA: 0x0000: aa 55 04 00 00 00 31 4e - ff ff
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89668F2E10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8967571A00, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967571A00, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967571A00, Length = 18, buffer = FFFF9E8958F93540
+HOOK_DATA: 0x0000: aa 55 80 08 00 b2 c0 77 - 80 02 01 00 01 c5 00 03
+HOOK_DATA: 0x0010: 2c 62
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 44, buffer = FFFF9E895A09B7A0
+HOOK_DATA: 0x0000: aa 55 40 00 00 b2 c5 6d - ff ff aa 55 80 18 00 5b
+HOOK_DATA: 0x0010: a4 58 80 02 00 01 01 c5 - 00 03 00 00 00 00 f7 97
+HOOK_DATA: 0x0020: 00 00 24 b8 00 00 0e 22 - 00 00 c8 9f
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89668F2E10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8959D9F6D0, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8959D9F6D0, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8959D9F6D0, Length = 10, buffer = FFFF9E89669E2690
+HOOK_DATA: 0x0000: aa 55 40 00 00 5b c2 01 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8957F1A380, Driver = \Driver\SurfaceAcpiNotify
+HOOK_DATA: DbgAcpiNotifyIoctl Read: Irp=0xFFFF9E8957F1A380, entry=1, direction=0x1, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x2, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 00 10
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89679BE010, length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: 0x0000: 30 00 00 00 00 00 00 00 - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 02 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0020: aa 11 c6 56 89 9e ff ff - 08 00 00 00 00 00 00 00
+HOOK_DATA: 0x0030: 01 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0040: aa 11 c6 56 89 9e ff ff - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0050: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0060: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0070: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0080: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E89679BE010, Length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: DbgAcpiNotifyIoctl Write: Irp=0xFFFF9E89679BE010, entry=0, direction=0x2, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x8, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 01 02 01 01 01 0d 00 00
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8959256090, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8959256090, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8959256090, Length = 18, buffer = FFFF9E89679EF2F0
+HOOK_DATA: 0x0000: aa 55 80 08 00 b3 e1 67 - 80 02 01 00 01 c6 00 0d
+HOOK_DATA: 0x0010: b2 da
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 32, buffer = FFFF9E895A09B7A0
+HOOK_DATA: 0x0000: aa 55 40 00 00 b3 e4 7d - ff ff aa 55 80 0c 00 5c
+HOOK_DATA: 0x0010: e0 b7 80 02 00 01 01 c6 - 00 0d 01 00 00 00 e5 a2
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89668F2E10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8967B8BE10, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967B8BE10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967B8BE10, Length = 10, buffer = FFFF9E8967526960
+HOOK_DATA: 0x0000: aa 55 40 00 00 5c 25 71 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\SurfaceAcpiNotify
+HOOK_DATA: DbgAcpiNotifyIoctl Read: Irp=0xFFFF9E89679BE010, entry=1, direction=0x1, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x2, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 00 04
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 0, buffer = FFFF9E895A584F58
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 16, buffer = FFFF9E895A584F58
+HOOK_DATA: 0x0000: 01 00 00 00 24 b8 00 00 - 0e 22 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 ff ff ff ff - 01 00 00 00 38 b7 00 00
+HOOK_DATA: 0x0010: ff ff ff ff
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8959256090, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8959256090, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8959256090, Length = 18, buffer = FFFF9E89667AC600
+HOOK_DATA: 0x0000: aa 55 80 08 00 b4 06 17 - 80 01 01 00 00 c7 00 15
+HOOK_DATA: 0x0010: 8d d0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 29, buffer = FFFF9E895A09B7A0
+HOOK_DATA: 0x0000: aa 55 40 00 00 b4 03 0d - ff ff aa 55 80 09 00 5d
+HOOK_DATA: 0x0010: 31 4c 80 01 00 01 00 c7 - 00 15 00 bc bb
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89668F2E10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8959D9F6D0, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8959D9F6D0, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8959D9F6D0, Length = 10, buffer = FFFF9E89678B12F0
+HOOK_DATA: 0x0000: aa 55 40 00 00 5d 04 61 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 0, buffer = FFFF9E895A09B7A0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 4, Driver = \Driver\CmBatt, Ioctl = 0x294040
+HOOK_DATA: 0x0000: 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E8967C63680, Length = 4, Driver = \Driver\CmBatt, Ioctl = 0x294040
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 4, buffer = FFFF9E89568BE9C0
+HOOK_DATA: 0x0000: 01 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 00 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E8967C63680,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x0,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 36, buffer = FFFF9E89568BE9C0
+HOOK_DATA: 0x0000: 00 00 00 80 01 00 00 00 - 4c 49 4f 4e c8 af 00 00
+HOOK_DATA: 0x0010: 24 b8 00 00 46 05 00 00 - 5e 1a 00 00 00 00 00 00
+HOOK_DATA: 0x0020: 18 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 05 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E8967C63680,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x5,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 0, buffer = FFFF9E89568BE9C0
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 04 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E8967C63680,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x4,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 18, buffer = FFFF9E89668BF280
+HOOK_DATA: 0x0000: 4d 00 31 00 30 00 30 00 - 39 00 31 00 36 00 39 00
+HOOK_DATA: 0x0010: 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 06 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E8967C63680,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x6,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 8, buffer = FFFF9E89668BF280
+HOOK_DATA: 0x0000: 53 00 4d 00 50 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89679BE010, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 08 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E89679BE010,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x8,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E89679BE010, Length = 22, buffer = FFFF9E89598A0640
+HOOK_DATA: 0x0000: 39 00 32 00 30 00 31 00 - 37 00 36 00 33 00 37 00
+HOOK_DATA: 0x0010: 34 00 38 00 00 00
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 4, Driver = \Driver\CmBatt, Ioctl = 0x294040
+HOOK_DATA: 0x0000: 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E8967C63680, Length = 4, Driver = \Driver\CmBatt, Ioctl = 0x294040
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 4, buffer = FFFF9E895A2FA280
+HOOK_DATA: 0x0000: 01 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E8967C63680, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 16, buffer = FFFF9E895A2FA280
+HOOK_DATA: 0x0000: 01 00 00 00 24 b8 00 00 - 0e 22 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 03 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E8967C63680,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x3,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 4, buffer = FFFF9E895A2FA280
+HOOK_DATA: 0x0000: ff ff ff ff
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 07 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E8967C63680,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x7,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 44, buffer = FFFF9E8967917140
+HOOK_DATA: 0x0000: 39 00 32 00 30 00 31 00 - 37 00 36 00 33 00 37 00
+HOOK_DATA: 0x0010: 34 00 38 00 53 00 4d 00 - 50 00 4d 00 31 00 30 00
+HOOK_DATA: 0x0020: 30 00 39 00 31 00 36 00 - 39 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89679BE010, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 00 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E89679BE010,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x0,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E89679BE010, Length = 36, buffer = FFFF9E8965F65D80
+HOOK_DATA: 0x0000: 00 00 00 80 01 00 00 00 - 4c 49 4f 4e c8 af 00 00
+HOOK_DATA: 0x0010: 24 b8 00 00 46 05 00 00 - 5e 1a 00 00 00 00 00 00
+HOOK_DATA: 0x0020: 18 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8967C63680, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 05 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E8967C63680,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x5,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967C63680, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967C63680, Length = 0, buffer = FFFF9E8965F65D80
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89679BE010, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 01 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E89679BE010,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x1,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E89679BE010, Length = 16, buffer = FFFF9E8965F65D80
+HOOK_DATA: 0x0000: 0a 00 00 00 46 05 00 00 - 0a 00 00 00 c8 af 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89679BE010, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 04 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E89679BE010,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x4,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E89679BE010, Length = 18, buffer = FFFF9E89598A0640
+HOOK_DATA: 0x0000: 4d 00 31 00 30 00 30 00 - 39 00 31 00 36 00 39 00
+HOOK_DATA: 0x0010: 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89679BE010, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 06 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E89679BE010,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x6,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E89679BE010, Length = 8, buffer = FFFF9E89598A0640
+HOOK_DATA: 0x0000: 53 00 4d 00 50 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89679BE010, length = 12, Driver = \Driver\CmBatt, Ioctl = 0x294044
+HOOK_DATA: 0x0000: 01 00 00 00 08 00 00 00 - 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp=0xFFFF9E89679BE010,Length=12,Driver=\Driver\CmBatt,Ioctl=0x294044,Tag=0x1,InfoLevel=0x8,AtRate=0x0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E89679BE010, Length = 22, buffer = FFFF9E89598A0640
+HOOK_DATA: 0x0000: 39 00 32 00 30 00 31 00 - 37 00 36 00 33 00 37 00
+HOOK_DATA: 0x0010: 34 00 38 00 00 00
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89679BE010, Driver = \Driver\CmBatt
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89593B8C60, Driver = \Driver\iaLPSS2_UART2
+
+DEBUG:NOTE - Wakeup
+
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E89668F2E10, length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: 0x0000: 30 00 00 00 00 00 00 00 - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 02 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0020: aa 11 c6 56 89 9e ff ff - 08 00 00 00 00 00 00 00
+HOOK_DATA: 0x0030: 01 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0040: aa 11 c6 56 89 9e ff ff - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0050: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0060: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0070: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0080: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E89668F2E10, Length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: DbgAcpiNotifyIoctl Write: Irp=0xFFFF9E89668F2E10, entry=0, direction=0x2, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x8, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 01 02 01 01 01 03 00 00
+HOOK_DATA: Read Request: Irp = 0xFFFF9E8967B8BE10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89593B8C60, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8959DCA3C0, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8959DCA3C0, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8959DCA3C0, Length = 18, buffer = FFFF9E89677AD5A0
+HOOK_DATA: 0x0000: aa 55 80 08 00 b5 27 07 - 80 02 01 00 01 c8 00 03
+HOOK_DATA: 0x0010: 7d 20
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967B8BE10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967B8BE10, Length = 10, buffer = FFFF9E895A09B7A0
+HOOK_DATA: 0x0000: aa 55 04 00 00 00 31 4e - ff ff
+HOOK_DATA: Read Request: Irp = 0xFFFF9E8967B8BE10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8959DCA3C0, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8959DCA3C0, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8959DCA3C0, Length = 18, buffer = FFFF9E895A3A8F60
+HOOK_DATA: 0x0000: aa 55 80 08 00 b5 27 07 - 80 02 01 00 01 c8 00 03
+HOOK_DATA: 0x0010: 7d 20
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967B8BE10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967B8BE10, Length = 44, buffer = FFFF9E895A09B7A0
+HOOK_DATA: 0x0000: aa 55 40 00 00 b5 22 1d - ff ff aa 55 80 18 00 5e
+HOOK_DATA: 0x0010: 01 08 80 02 00 01 01 c8 - 00 03 00 00 00 00 99 b6
+HOOK_DATA: 0x0020: 00 00 24 b8 00 00 0e 22 - 00 00 b3 48
+HOOK_DATA: Read Request: Irp = 0xFFFF9E8967B8BE10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E8967D02760, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967D02760, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967D02760, Length = 10, buffer = FFFF9E89616BE8A0
+HOOK_DATA: 0x0000: aa 55 40 00 00 5e 67 51 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\SurfaceAcpiNotify
+HOOK_DATA: DbgAcpiNotifyIoctl Read: Irp=0xFFFF9E89668F2E10, entry=1, direction=0x1, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x2, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 00 10
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896613E350, length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: 0x0000: 30 00 00 00 00 00 00 00 - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 02 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0020: aa 11 c6 56 89 9e ff ff - 08 00 00 00 00 00 00 00
+HOOK_DATA: 0x0030: 01 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0040: aa 11 c6 56 89 9e ff ff - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0050: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0060: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0070: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0080: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896613E350, Length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: DbgAcpiNotifyIoctl Write: Irp=0xFFFF9E896613E350, entry=0, direction=0x2, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x8, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 01 02 01 01 01 0d 00 00
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89668F2E10, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 18, buffer = FFFF9E89664A87E0
+HOOK_DATA: 0x0000: aa 55 80 08 00 b6 44 37 - 80 02 01 00 01 c9 00 0d
+HOOK_DATA: 0x0010: 83 f6
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967B8BE10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967B8BE10, Length = 32, buffer = FFFF9E895A09B7A0
+HOOK_DATA: 0x0000: aa 55 40 00 00 b6 41 2d - ff ff aa 55 80 0c 00 5f
+HOOK_DATA: 0x0010: 83 87 80 02 00 01 01 c9 - 00 0d 01 00 00 00 0c 28
+HOOK_DATA: Read Request: Irp = 0xFFFF9E8967B8BE10, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89568C4C00, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89568C4C00, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89568C4C00, Length = 10, buffer = FFFF9E896751B100
+HOOK_DATA: 0x0000: aa 55 40 00 00 5f 46 41 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896613E350, Driver = \Driver\SurfaceAcpiNotify
+HOOK_DATA: DbgAcpiNotifyIoctl Read: Irp=0xFFFF9E896613E350, entry=1, direction=0x1, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x2, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 00 04
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 0, buffer = FFFF9E895A584F58
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 16, buffer = FFFF9E895A584F58
+HOOK_DATA: 0x0000: 01 00 00 00 24 b8 00 00 - 0e 22 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 ff ff ff ff - 01 00 00 00 38 b7 00 00
+HOOK_DATA: 0x0010: ff ff ff ff
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8967B8BE10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E8967B8BE10, Length = 0, buffer = FFFF9E895A09B7A0
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89593B8C60, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 0, buffer = FFFF9E895A584F58
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 16, buffer = FFFF9E895A584F58
+HOOK_DATA: 0x0000: 01 00 00 00 24 b8 00 00 - 0e 22 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 ff ff ff ff - 01 00 00 00 38 b7 00 00
+HOOK_DATA: 0x0010: ff ff ff ff
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89593B8C60, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89593B8C60, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8966A67E10, length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: 0x0000: 30 00 00 00 00 00 00 00 - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 02 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0020: aa 11 c6 56 89 9e ff ff - 08 00 00 00 00 00 00 00
+HOOK_DATA: 0x0030: 01 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0040: aa 11 c6 56 89 9e ff ff - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0050: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0060: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0070: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0080: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E8966A67E10, Length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: DbgAcpiNotifyIoctl Write: Irp=0xFFFF9E8966A67E10, entry=0, direction=0x2, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x8, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 01 02 01 01 01 03 00 00
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89589B1B00, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89593B8C60, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89668F2E10, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 18, buffer = FFFF9E89681FC690
+HOOK_DATA: 0x0000: aa 55 80 08 00 b7 65 27 - 80 01 01 00 00 ca 00 16
+HOOK_DATA: 0x0010: bf a2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89589B1B00, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89589B1B00, Length = 10, buffer = FFFF9E8967E9E370
+HOOK_DATA: 0x0000: aa 55 04 00 00 00 31 4e - ff ff
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89589B1B00, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89590F2230, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89590F2230, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89590F2230, Length = 18, buffer = FFFF9E89681FC690
+HOOK_DATA: 0x0000: aa 55 80 08 00 b7 65 27 - 80 01 01 00 00 ca 00 16
+HOOK_DATA: 0x0010: bf a2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89589B1B00, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89589B1B00, Length = 29, buffer = FFFF9E8967E9E370
+HOOK_DATA: 0x0000: aa 55 40 00 00 b7 60 3d - ff ff aa 55 80 09 00 60
+HOOK_DATA: 0x0010: cf ab 80 01 00 01 00 ca - 00 16 00 69 d7
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89589B1B00, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89590F2230, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89668F2E10, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89590F2230, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89590F2230, Length = 10, buffer = FFFF9E8966CE8650
+HOOK_DATA: 0x0000: aa 55 40 00 00 60 fa 86 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89668F2E10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89668F2E10, Length = 18, buffer = FFFF9E89681FC690
+HOOK_DATA: 0x0000: aa 55 80 08 00 b8 8a d6 - 80 02 01 00 01 cb 00 03
+HOOK_DATA: 0x0010: 2d 79
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89589B1B00, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89589B1B00, Length = 44, buffer = FFFF9E8967E9E370
+HOOK_DATA: 0x0000: aa 55 40 00 00 b8 8f cc - ff ff aa 55 80 18 00 61
+HOOK_DATA: 0x0010: bd cf 80 02 00 01 01 cb - 00 03 00 00 00 00 3e 2d
+HOOK_DATA: 0x0020: 00 00 24 b8 00 00 0e 22 - 00 00 1a f0
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89589B1B00, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89590F2230, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89590F2230, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89590F2230, Length = 10, buffer = FFFF9E8966CE8650
+HOOK_DATA: 0x0000: aa 55 40 00 00 61 db 96 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8966A67E10, Driver = \Driver\SurfaceAcpiNotify
+HOOK_DATA: DbgAcpiNotifyIoctl Read: Irp=0xFFFF9E8966A67E10, entry=1, direction=0x1, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x2, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 00 10
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E8968137430, length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: 0x0000: 30 00 00 00 00 00 00 00 - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 02 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0020: aa 11 c6 56 89 9e ff ff - 08 00 00 00 00 00 00 00
+HOOK_DATA: 0x0030: 01 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00
+HOOK_DATA: 0x0040: aa 11 c6 56 89 9e ff ff - 02 00 00 00 00 00 00 00
+HOOK_DATA: 0x0050: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0060: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0070: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0080: 00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E8968137430, Length = 144, Driver = \Driver\SurfaceAcpiNotify, Ioctl = 0x41808
+HOOK_DATA: DbgAcpiNotifyIoctl Write: Irp=0xFFFF9E8968137430, entry=0, direction=0x2, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x8, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 01 02 01 01 01 0d 00 00
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89590F2230, Length = 18, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89590F2230, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89590F2230, Length = 18, buffer = FFFF9E895748C160
+HOOK_DATA: 0x0000: aa 55 80 08 00 b9 ab c6 - 80 02 01 00 01 cc 00 0d
+HOOK_DATA: 0x0010: 73 1d
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89589B1B00, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89589B1B00, Length = 32, buffer = FFFF9E8967E9E370
+HOOK_DATA: 0x0000: aa 55 40 00 00 b9 ae dc - ff ff aa 55 80 0c 00 62
+HOOK_DATA: 0x0010: 7d 60 80 02 00 01 01 cc - 00 0d 01 00 00 00 ab 51
+HOOK_DATA: Read Request: Irp = 0xFFFF9E89589B1B00, Length = 536, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Write Request: Irp = 0xFFFF9E89590F2230, Length = 10, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E89590F2230, Driver = \Driver\iaLPSS2_UART2
+HOOK_DATA: Complete: Irp = 0xFFFF9E89590F2230, Length = 10, buffer = FFFF9E89675EF100
+HOOK_DATA: 0x0000: aa 55 40 00 00 62 b8 a6 - ff ff
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E8968137430, Driver = \Driver\SurfaceAcpiNotify
+HOOK_DATA: DbgAcpiNotifyIoctl Read: Irp=0xFFFF9E8968137430, entry=1, direction=0x1, delay=0x0, format=0x1, mdl=0xFFFF9E8956C611AA, bufferCb=0x2, buffer=0xFFFF9E8956C611AA
+HOOK_DATA: 0x0000: 00 04
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 0, buffer = FFFF9E895A584F58
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00
+HOOK_DATA: 0x0010: 00 00 00 00
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: _HookHandlerIRPCompletion : Irp = 0xFFFF9E896175B6B0, Driver = \Driver\CmBatt
+HOOK_DATA: Complete: Irp = 0xFFFF9E896175B6B0, Length = 16, buffer = FFFF9E895A584F58
+HOOK_DATA: 0x0000: 01 00 00 00 24 b8 00 00 - 0e 22 00 00 00 00 00 00
+HOOK_DATA: DeviceIocontrol Dispatch: Irp = 0xFFFF9E896175B6B0, length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
+HOOK_DATA: 0x0000: 01 00 00 00 ff ff ff ff - 01 00 00 00 38 b7 00 00
+HOOK_DATA: 0x0010: ff ff ff ff
+HOOK_DATA: DeviceIocontrol Request: Irp = 0xFFFF9E896175B6B0, Length = 20, Driver = \Driver\CmBatt, Ioctl = 0x29404c
