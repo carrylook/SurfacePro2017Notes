@@ -1,0 +1,5 @@
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin\x64\CertMgr.exe" /add irpmndrv.cer /s /r localMachine root
+
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin\x64\CertMgr.exe" /add irpmndrv.cer /s /r localMachine trustedpublisher
+
+.sympath cache*;srv*https://msdl.microsoft.com/download/symbols
